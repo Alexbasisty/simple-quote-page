@@ -5,6 +5,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
 }
+
 body {
   width: 100%;
   height: 100vh;
@@ -20,10 +21,17 @@ body {
   text-align: center;
 }
 
+
 .quote {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 2.5rem; 
 }
+@media (max-width: 768px) {
+  .quote {
+    font-size: 1.5rem;
+  }
+}
+
 
 .author {
   font-family: 'Crimson Text', serif;
